@@ -17,5 +17,5 @@ sequenceDiagram;
     server-->>browser: return data.json
     Note over browser: Browser executes event handler to render notes to display
     browser->>server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/favicon.ico
-    server-->>browser: 404 Not Found 
+    server-->>browser: 404 Not Found!
 ```
